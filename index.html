@@ -3,14 +3,17 @@
 
 <head>
     <title>My Homepage</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
     <body>
 
-        <table border = 1 width = 100% cellspacing = 0 cellpadding = 10>
+        <table class = "main-layout">
 
             <tr>
-                <td colspan = 2>
+                <td class = "topMost-header" colspan = 2>
 
                     <table width = 100%>
                         <tr>
@@ -24,7 +27,7 @@
                                 <a href="#top" title = "Go to Homepage">Home</a> |
                                 <a href="#about" title = "Learn more about Raymond"> About Me </a> |
                                 <a href="#favorites" title = "View favorite movies and music"> Favorites </a> |
-                                <a href="interestForm.html" title = "Open recommendation form"> Interest Form </a>
+                                <a href="interestForm.html" title = "Open interest form"> Interest Form </a>
 
                             </td>
 
@@ -36,7 +39,7 @@
 
             <tr>
 
-                <td width = 75% valign = top>
+                <td class = "all-info-content">
 
                     <section id = "about">
                         
@@ -49,6 +52,7 @@
                                 <td width = 25% align = center>
 
                                     <img src = "pfp.jpg"
+                                        class = "profile-picture"
                                         alt = "Raymond's Profile Picture"
                                         width = "150">
 
@@ -77,7 +81,7 @@
 
                         <h2>Sport Skills</h2>
 
-                        <table border = 1 align = center width = 80% cellpadding = 8 cellspacing = 0>
+                        <table class = "sports-table">
 
                             <tr>
                                 <th>Sport</th>
@@ -110,7 +114,7 @@
                     <br>
                     <hr>
 
-                    <section id = "favorites">
+                    <section id = "favorites" class = "favorites-section">
 
                         <h2>Favorites</h2>
 
@@ -129,6 +133,7 @@
                                     </ul>
 
                                     <img src="policeStory.jpg"
+                                        class = "movie-poster" 
                                         alt="Police Story Poster"
                                         width="170">
 
@@ -165,7 +170,7 @@
 
                 </td>
 
-                <td width = 25% valign = top>
+                <td class = "sidebar">
 
                     <aside>
 
@@ -232,7 +237,7 @@
 
                 <td colspan = 2 align = center>
 
-                    <footer>
+                    <footer class = "footer">
 
                         <p>CCDEVAP Copyright @2026</p>
 
